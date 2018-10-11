@@ -1,0 +1,181 @@
+body{
+  background: rgb(255, 255, 255);
+}
+h1{
+  color: rgb(255, 255, 255)
+}
+
+header{
+  background: rgb(251, 195, 34);
+  display: flex;
+   Flex-direction: row;
+  margin-top: -20px;
+}
+
+
+h1{
+  font-family: 'Paytone One', sans-serif;
+  margin-top: 40px;
+  margin-left: 355px;
+}
+
+
+/* Fond du gadget de la barre de recherche */
+.recherche_p {
+border-width: 1px;   /* Epaisseur de la bordure  */
+display: block;
+margin-left: 190px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+/* Champ de saisie */
+#searchthis #search {
+  background-color: #ffffff;   /* Couleur de fond */
+border: none;   /* Pas de bordure */
+padding: 4px 15px 4px 15px;
+width: 78.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+box-sizing: border-box;   /* Important */
+font-family: 'poppins'
+}
+
+#searchthis #search {
+  margin-top: 35px;
+ }
+
+/* Bouton valider */
+#searchthis #search-btn {
+  background-color: #E8B960;   /* Couleur de fond */
+border-style: solid;   /* Style de la bordure  */
+border-width: 1px;   /* Epaisseur de la bordure  */
+border-color: #E8B960;   /* Couleur de la bordure  */
+padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+width: 80%;   /* Permet d'ajuster la largeur du bouton à 100% */
+box-sizing: border-box;   /* Important */
+font-family: 'poppins';   /* Police du texte */
+font-size: 13px;   /* Taille de la police du texte */
+font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+letter-spacing: 2px;   /* Espacement des caractères */
+margin-top: 3px;
+}
+
+#searchthis #search-btn {
+cursor: pointer;
+background-color: #ffffff;   /* Couleur de fond */
+color: #E8B960;   /* Couleur du texte */
+border-color: #95b230;
+}
+
+
+.video {
+text-align: center;
+margin-left:auto; margin-right: auto;
+margin-top: 50px;
+}
+
+
+.recherche_p{
+  display: block;
+}
+
+.logo{
+  margin-left: 12px;
+  margin-top: 50px:
+}
+ul{
+margin left: auto;
+margin-right: auto;
+}
+
+
+.slide{
+margin-top: 30px;
+}
+
+section{
+  background-color: rgb(201, 177, 13)
+}
+
+.image-header{
+  display: flex;
+      margin-left: auto;
+      margin-right: auto
+     }
+
+
+  ul {
+       padding:0;
+       margin-top: 45px;
+margin-left: 355px;
+      list-style-type:none;
+       font-family: 'poppins'
+
+       }
+      li {
+       margin-left:10px;
+       float:left; /*pour IE*/
+       }
+      ul li a {
+      display:block;
+       float:left;
+       width:150px;
+       background-color:#95b230;
+       color:white;
+       text-decoration:none;
+       text-align:center;
+       padding:8px;
+       }
+
+      ul li a:hover {
+       background-color:#fbc322;
+       }
+
+#étapes{
+align-content: center;}
+
+ul{
+
+}
+
+.liste2{
+  margin-top: 60px;
+}
+
+
+h1{
+text-align: center;
+}
+
+section{
+  padding: 1em;
+  margin: 30px;
+}
+
+section{
+    width: auto;
+    height: auto;
+    padding: 1em;
+}
+.section1{
+  background-position: center;
+  position: absolute;
+  display: flex;
+  text-align: center;
+}
+
+#section1{
+  display: flex;
+  text-align: center;
+}
+
+p{
+  color: rgb(255, 255, 255)
+}
+
+p{
+margin-top: 30px;
+margin-left: 70px;
+}
