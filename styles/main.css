@@ -1,7 +1,7 @@
 body{
   background: rgb(255, 255, 255);
-
 }
+
 h1{
   color: rgb(255, 255, 255)
 }
@@ -9,33 +9,33 @@ h1{
 header{
   background: rgb(251, 195, 34);
   display: flex;
-   Flex-direction: row;
-  margin-top: -20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
 h1{
   font-family: 'Paytone One', sans-serif;
-  margin-top: 40px;
-  margin-left: 355px;
+margin-left: 100px;
+}
+
+h1{
+text-align: center;
 }
 
 h2{
-  text-align: left;
-  margin-left: 200px;
-  margin-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'poppins';
   font-weight: bold;
   color: #95b230;
-
+  display: block;
 }
 
 /* Fond du gadget de la barre de recherche */
 .recherche_p {
 border-width: 1px;   /* Epaisseur de la bordure  */
-display: block;
-margin-left: 190px;
+
 }
 
 p{
@@ -43,15 +43,15 @@ p{
   margin-right: 150px;
   font-size: 14px;
   font-family: 'poppins'
-
 }
+
 ul{
   list-style-type: none;
 }
 
 /* Champ de saisie */
 #searchthis #search {
-  background-color: #ffffff;   /* Couleur de fond */
+background-color: #ffffff;   /* Couleur de fond */
 border: none;   /* Pas de bordure */
 padding: 4px 15px 4px 15px;
 width: 78.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
@@ -60,7 +60,6 @@ font-family: 'poppins'
 }
 
 #searchthis #search {
-  margin-top: 35px;
  }
 
 /* Bouton valider */
@@ -70,7 +69,7 @@ border-style: solid;   /* Style de la bordure  */
 border-width: 1px;   /* Epaisseur de la bordure  */
 border-color: #E8B960;   /* Couleur de la bordure  */
 padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
-width: 80%;   /* Permet d'ajuster la largeur du bouton à 100% */
+width: 79%;   /* Permet d'ajuster la largeur du bouton à 100% */
 box-sizing: border-box;   /* Important */
 font-family: 'poppins';   /* Police du texte */
 font-size: 13px;   /* Taille de la police du texte */
@@ -87,66 +86,67 @@ border-color: #95b230;
 }
 
 
-.video {
-position: relative;
-text-align: center;
-margin-left:150px;
- margin-right: auto;
-float: left;
-width: 700px;
-margin-top: 70px;
+section {
+  display: flex;
+  min-height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
 }
 
 
+.video {
+  flex-basis: 420px;
+}
+
+.texte{
+  flex-basis: 420px;
+}
+
 .recherche_p{
   display: block;
+  margin-right: -20px;
 }
 
 
 .logo{
-  margin-left: 12px;
-  margin-top: 50px:
-}
-ul{
-margin left: auto;
-margin-right: auto;
+  margin-left: 15px;
 }
 
-.texte{
-  margin-top: 80px;
-}
+
 
 .slide{
 margin-top: 30px;
 }
 
-section{
-  background-color: rgb(201, 177, 13)
-}
-
 .image-header{
-  display: flex;
+      display: flex;
       margin-left: auto;
       margin-right: auto
      }
 
-
   ul {
-    flex-direction: row
+    margin-left: 350px;
+
+      align-content: center;
+      flex-direction: row;
+       display: flex;
+       flex-wrap: wrap;
        padding:0;
        position: absolute;
-       margin-left: 355px;
        list-style-type:none;
+       justify-content: center;
        font-family: 'poppins'
-
        }
+
       li {
        margin-left:10px;
-       float:left; /*pour IE*/
        }
       ul li a {
-      display:block;
-       float:left;
+      display: flex;
+      flex-direction: column;
        width:150px;
        background-color:#95b230;
        color:white;
@@ -158,39 +158,3 @@ section{
       ul li a:hover {
        background-color:#fbc322;
        }
-
-#étapes{
-align-content: center;}
-
-
-.liste2{
-  margin-top: 100px;
-
-}
-
-
-h1{
-text-align: center;
-}
-
-section{
-  padding: 1em;
-  margin: 30px;
-}
-
-section{
-    width: auto;
-    height: auto;
-    padding: 1em;
-}
-.section1{
-  background-position: center;
-  position: absolute;
-  display: flex;
-  text-align: center;
-}
-
-#section1{
-  display: flex;
-  text-align: center;
-}
